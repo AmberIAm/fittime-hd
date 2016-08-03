@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* all */
+.allBody {margin: 0px;padding: 0px;background-image: url(../img/bgIcon-8.jpg);background-repeat: no-repeat;height: 720px;width: 1280px;}
+
+.allBody #nav {
+	font-family: "黑体";
+	font-size: 23px;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	width: 600px;
+	height: 37px;
+	margin-top: 56px;
+	margin-left: 108px; 
+	margin-bottom: 1px;
+	
+}
+
+.allBody #nav tr td a {
+	font-family: "黑体";
+	font-size: 20.7px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	height: 34px;
+	width: 100px;
+	line-height: 34px;
+	
+}
+
+.allBody #nav tr td a:focus{background-color:#ffdd00; color:#000; }
+
+
+#mainDetail {
+	width: 1131px;
+	height: 570px;
+	padding-top: 2px;
+	margin-left: 75px;
+}
+
+/* iFrame */
+.pic a{border: 0.1px solid #000; z-index: 0; }
+.pic a:focus {border: 0.1px solid #ffdd00;}
+
+/* hot */
+.hotBody {
+	margin: 0px;
+	background-color: #0A0A0A;
+	width: 1130px;
+	height: 260px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+
+/* pageTurning-all */
+.pageTurnAll{
+	width: 200px;
+	float: right;
+	margin-right: 0px;
+}
+.hotBody .pageTurnAll table tr td a {
+	padding-left: 3px;
+}
+.hotBody .pageTurnAll table tr td a {text-decoration: none;color: #FFF;}
+.hotBody .pageTurnAll table tr td a {font-family: "黑体";}
+.hotBody .pageTurnAll table tr td a {font-size: 18px;}
+
+.hotBody .pageTurnAll table tr td a:focus { border:1px solid #ffdd00; }
+
+
+
+/* pageTurning-favor */
+.favBody .pageTurnFav{		
+	width: 200px;
+	float: left;	
+	margin-right: 0px;
+}
+
+.favBody .pageTurnFav table tr td a {text-decoration: none;color: #FFF;}
+.favBody .pageTurnFav table tr td a {font-family: "黑体";}
+.favBody .pageTurnFav table tr td a {font-size: 18px;}
+.favBody .pageTurnFav table tr td a:focus {  border:1px solid #ffdd00;  } /* background-color: #ffdd00; color: #000; */
+
+.favBody .favClear table {
+	float: right;
+
+}
+.favBody .favClear table tr td a {
+	font-family: "黑体";
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+}
+.favBody .favClear table tr td a:focus { border:1px solid #ffdd00; }
+.none {padding-top: 360px;}
+
+
+
+/* pageTurning-history */
+.hisBody .pageTurnHis{
+	width: 200px;
+	float: left;
+	margin-right: 0px;
+}
+.hisBody .pageTurnHis table tr td a {text-decoration: none;color: #FFF;}
+.histBody .pageTurnHis table tr td a {font-family: "黑体";}
+.hisBody .pageTurnHis table tr td a {font-size: 18px;}
+.hisBody .pageTurnHis table tr td a:focus { border:1px solid #ffdd00;  }
+
+.hisBody .hisClear table {
+	float: right;
+}
+.hisBody .hisClear table tr td a {
+	font-family: "黑体";
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+}
+.hisBody .hisClear table tr td a:focus { border:1px solid #ffdd00; }
+
+
+/*detailBody --1--*/
+#dContent{
+	margin: 0 65px;
+}
+.dBody {
+	background-color: #0A0A0A;
+	height: 720px;
+	width: 1280px;
+	color: #FFF;
+	font-family: "黑体";
+}
+.dBody .dClear table {
+	float: right;
+	height: 20px;
+	width: 150px;
+	padding: 0px;
+	margin: 0px;
+}
+.dBody .dClear table tr td a {
+	color: #FFF;
+	text-decoration: none;
+}
+.dBody .dClear {
+	/* [disabled]height: 60px; */
+	width: 150px;
+	/* [disabled]float: right; */
+}
+.dBody .dTable1 tr td {
+	color: #FFF;
+	font-size: 22px;
+}
+.dBody .dTable1 tr td.dImg{
+	width: 157px;
+	height: 157px;
+	padding-top: 85px;
+}
+
+.dBody .dTable1 tr td p{
+	display: block;
+}
+.dBody .dTable1 .dIns tr td a.dFavor0{
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	background-color: #0A0A0A	;
+	border: 2px solid #3B3B3B;
+	width: 80px;
+	height: 24px;
+	padding-left: 8px;
+}
+.dBody .dTable1 .dIns tr td a.dFavor0:focus{background-color: #ffdd00; color:#000; }
+.dBody .dIns {
+	float: left;
+	}
+.dBody .dIns {
+	font-family: "黑体";
+	font-size: 22px;
+	line-height: 22px;
+	color: #FFF;
+	text-decoration: none;
+	height: 20px;
+	width: 200px;
+}
+.dDetail{
+	clear: both;
+}
+.dDetail tr td a{
+	width: 280px;
+	height: 370px;
+	display: block;
+	overflow: hidden;
+	border: 1px solid #000;
+}
+.dDetail tr td a:focus { border:1px solid #ffdd00; }
+.dBody .dIns {
+	display: block;
+	vertical-align: bottom;
+	margin-top: 185px;
+	margin-left: auto;
+	width: 450px;
+	height: 50px;
+	float: left;
+}
+
+/*detailBody --2--*/
+
+.dBody .dTable tr .dCoach {
+	margin: 0px;
+	padding: 0px;
+	height: 185px;
+	width: 185px;
+}
+.dBody .dTable tr td .dTitleP1 {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #FFdd00;
+	display: block;
+	
+}
+.dBody .dTable tr td .dTitleP2 {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #FFF;
+	text-align: left;
+	vertical-align: middle;
+	display: block;
+	
+}
+
+.dBody table tr .favor0 {	
+	font-size: 20px;
+}
+.dBody table tr .dCoachDetail {
+	width: 185px;
+	font-size: 18px;
+	font-family: "黑体";
+}
+.favor0Img {
+	float: right;
+	margin-bottom: -1px;
+}
+
+
+.dLeft {
+	float: left;
+	margin-top: 2px;
+}
+.dRight {
+	float: left;
+}
+
+.dClear {
+	clear: both;
+	float: right;
+	margin-right: 152px;
+	font-size: 18px;
+}
+
+.pre {
+	height: auto;
+	width: auto;
+}
+.nex {
+	height: auto;
+	width: auto;
+}
+.clearA {
+	font-family: "黑体";
+	color: #FFF;
+	text-decoration: none;
+	background-color: #141414;
+	border:2px solid #000;
+}
+.dClear tr td a.clearA:focus { border:2px solid #ffdd00; }
+.dCDSpan1 {
+	color: #FC3;
+}
+.dCDSpan2 {
+	font-size: 18px;
+}
+
+
+.dBody .dBContent .dLeft tr .favor0 a {
+	padding-right: 8px;
+	padding-left: 8px;
+	color: #FFF;
+	font-size: 21px;
+	text-decoration: none;
+	background-color: #242424;
+	font-family: "黑体";
+	
+	
+}
+.dBody .dBContent .dLeft tr .favor0 a:focus {
+	background-color: #ffdd00;
+	color: #000;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.dRight tr td a{border:2px solid #000;}
+.dRight tr td a:focus {border:2px solid #ffdd00;}
+
+.favor0Botton {
+	float: left;
+}
+
+.dBContent {margin-left: 6px;}
+
+/*playEnding*/
+.pEndBody {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #FFF;
+	background-image: url(../img/pEndBg.jpg);
+	height: 720px;
+	width: 1280px;
+}
+.ceTran {
+	height: 200px;
+	width: 1280px;
+	margin-top: 190px;
+}
+
+.span1 {
+	font-family: "黑体";
+	font-size: 59px;
+	padding-left: 24px;
+	display: block;
+	padding-top: 5px;
+}
+.span2 {
+	font-family: "黑体";
+	font-size: 36px;
+	padding-left: 20px;
+	color: #000;
+	display: block;
+	padding-bottom: 10px;
+}
+.span4 {
+	font-family: "黑体";
+	font-size: 32px;
+	padding-left: 3px;
+	display: block;
+	padding-bottom: 10px;
+	
+}
+.span3 {
+	font-size: 48px;
+}
+.qrPic {
+	margin-left: 80px;
+}
+
+
+/*instruction*/
+.insBody {
+	font-family: "黑体";
+	font-size: 23px;
+	color: #FFF;
+	background-image: url(../img/instruction.jpg);
+	height: 720px;
+	width: 1280px;
+}
+.iClear {
+	float: right;
+	margin-top: 580px;
+	width: 250px;
+	height: 100px;
+	margin-right: 68px;
+}
+.iClear a {
+	display: block;
+	color: #FFF;
+	background-color: #141414;
+	text-decoration: none;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+.iClear a:focus{
+	background-color:#ffdd00;
+	color: #000;
+	}
+
+
+/*guideBuy*/
+.guiBody {
+	font-family: "黑体";
+	font-size: 23px;
+	color: #fff;
+	background-image: url(../img/guideBuy.jpg);
+	height: 720px;
+	width: 1280px;
+}
+
+
+/*buyResult Success*/
+.bSuccessBody {
+	background-image: url(../img/buySuccess.jpg);
+	height: 720px;
+	width: 1280px;
+}
+/*buyFail*/
+.bFailBody {
+	background-image: url(../img/buyFail.jpg);
+	height: 720px;
+	width: 1280px;
+}
+.resultTable {
+	height: 65px;
+	width: 255px;	
+	margin-top: 281px;
+	margin-left: 618px;
+}
+
+.resultClear {
+	margin-top: 283px;
+	margin-left: 617px;
+	background-color: #F2F2F2;
+}
+
+.resultClear a {
+	text-decoration: none;	
+	display: block;
+	height: 70px;
+	width: 255px;	
+	color: #000;
+	font-family: "黑体";
+	}
+.resultClear a:focus {
+	background-color: #ffdd00;
+}
+.resultSpan {
+	vertical-align: middle;
+	padding-left: 9px;
+	font-size: 48px;
+	height: 70px;
+	line-height: 70px;
+}
+.backPic {
+	margin-top: -70px;
+	margin-left: 194px;
+}
+
